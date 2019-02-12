@@ -1,6 +1,7 @@
 #!/bin/bash
 set -xe
 composer install
+composer update
 npm install
 # Copy over testing configuration.
 cp .env.gitlab .env
