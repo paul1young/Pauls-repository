@@ -1,5 +1,4 @@
 #!/bin/bash
-set -xe
 composer install
 composer update
 npm install
