@@ -30,6 +30,7 @@ abstract class DuskTestCase extends BaseTestCase
     
     protected function driver()
     {
+        logger()->info('yoke');
         $options = (new ChromeOptions)->addArguments([
             '--disable-gpu',
             '--headless',
