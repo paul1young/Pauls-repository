@@ -38,7 +38,7 @@ abstract class DuskTestCase extends BaseTestCase
         ]);
 
         return RemoteWebDriver::create(
-                'http://gitlab.pearlai.com:8081', DesiredCapabilities::chrome()->setCapability(
+                'http://gitlab.pearlai.com:8080', DesiredCapabilities::chrome()->setCapability(
                 ChromeOptions::CAPABILITY, $options
             )
         );
